@@ -1,0 +1,52 @@
+[ 
+    {
+        "name" : "banana",
+        "cells" : [
+            {
+                "type": "text",
+                "header": "name",
+                "value": "Banana"
+            },
+            {
+                "type": "text",
+                "header": "code",
+                "value": "a-001"
+            },
+            {
+                "type": "image",
+                "header": "image",
+                "value": "banana"
+            },
+            {
+                "type": "checkbox",
+                "header": "is yellow?",
+                "value": true
+            }
+        ]
+    },
+      {
+            "name": "apple",
+            "cells": [
+                {
+                    "type": "text",
+                    "header": "name",
+                    "value": "Apple"
+                },
+                {
+                    "type": "text",
+                    "header": "code",
+                    "value": "a-002"
+                },
+                {
+                    "type": "image",
+                    "header": "image",
+                    "value": "apple"
+                },
+                {
+                    "type": "checkbox",
+                    "header": "is yellow?",
+                    "value": false
+                }
+            ]
+        }
+]

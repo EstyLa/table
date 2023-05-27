@@ -1,0 +1,12 @@
+<table cellspacing="0">
+    <thead>
+        <th *ngFor="let header of headers ">{{ header |  titlecase }}</th>
+    </thead>
+    <tr *ngFor="let row of scheme$ | async ">
+        <td *ngFor="let cell of row.cells">
+            <app-text-cell *ngIf="cell.type === 'text'" [value]="cell.value"></app-text-cell>
+            <app-checkbox-cell  *ngIf="cell.type === 'checkbox'" [value]="cell.value"></app-checkbox-cell>
+            <app-image-cell  *ngIf="cell.type === 'image'" [value]="cell.value"></app-image-cell>
+        </td>
+   </tr>
+</table>
